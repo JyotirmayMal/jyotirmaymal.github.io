@@ -20,7 +20,7 @@ container.addEventListener("mouseenter", (e) =>
   card.style.transition = "none";
  
   title.style.transform = "translateZ(600px)";
-  choco.style.transform = "translateZ(330px) rotateZ(-25deg)";
+  choco.style.transform = "translateZ(330px) rotateZ(21deg)";
   description.style.transform = "translateZ(-25px)";
   sizes.style.transform = "translateZ(-10px)";
 });
@@ -46,9 +46,9 @@ for (let button of buttons)
       Notification.requestPermission().then( perm => {
           if ( perm === "granted" )
           {
-              const notification = new Notification("শুভ জন্মদিন প্রিয় মিষ্টি ✨",
+              const notification = new Notification("Thanks MAM ✨",
               {
-                  body : "দুষ্টু বোন🥳🥳🥳🥳🥳" ,
+                  body : "May all your dreams turn real🥳🥳🥳🥳🥳" ,
                   icon : "./static/wrapped_gift.ico"
               }
               )
@@ -58,7 +58,7 @@ for (let button of buttons)
           }
           else
           {
-              alert("শুভ জন্মদিন প্রিয় মিষ্টি ✨ দুষ্টু বোন 🥳🥳🥳🥳🥳")
+              alert("Thanks (M)ischivious (A)nanya (M)ohapatra🥳🥳🥳🥳🥳")
           }
       } )
   })
