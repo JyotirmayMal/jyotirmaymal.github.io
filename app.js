@@ -19,8 +19,8 @@ container.addEventListener("mouseenter", (e) =>
 {
   card.style.transition = "none";
  
-  title.style.transform = "translateZ(600px)";
-  choco.style.transform = "translateZ(330px) rotateZ(-50deg)";
+  title.style.transform = "translateZ(500px)";
+  choco.style.transform = "translateZ(33px) rotateZ(10deg)";
   description.style.transform = "translateZ(-25px)";
   sizes.style.transform = "translateZ(-10px)";
 });
